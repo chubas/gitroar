@@ -1,0 +1,14 @@
+c:\users\chubas\documents\visual studio 2010\Projects\GitRoar\GitRoar\Bin\Debug\ApplicationIcon.png
+c:\users\chubas\documents\visual studio 2010\Projects\GitRoar\GitRoar\Bin\Debug\Background.png
+c:\users\chubas\documents\visual studio 2010\Projects\GitRoar\GitRoar\Bin\Debug\GitRoar.dll
+c:\users\chubas\documents\visual studio 2010\Projects\GitRoar\GitRoar\Bin\Debug\GitRoar.pdb
+c:\users\chubas\documents\visual studio 2010\Projects\GitRoar\GitRoar\Bin\Debug\AppManifest.xaml
+c:\users\chubas\documents\visual studio 2010\Projects\GitRoar\GitRoar\Bin\Debug\GitRoar.xap
+c:\users\chubas\documents\visual studio 2010\Projects\GitRoar\GitRoar\obj\Debug\ResolveAssemblyReference.cache
+c:\users\chubas\documents\visual studio 2010\Projects\GitRoar\GitRoar\obj\Debug\App.g.i.cs
+c:\users\chubas\documents\visual studio 2010\Projects\GitRoar\GitRoar\obj\Debug\DetailsPage.g.i.cs
+c:\users\chubas\documents\visual studio 2010\Projects\GitRoar\GitRoar\obj\Debug\MainPage.g.i.cs
+c:\users\chubas\documents\visual studio 2010\Projects\GitRoar\GitRoar\obj\Debug\GitRoar.g.resources
+c:\users\chubas\documents\visual studio 2010\Projects\GitRoar\GitRoar\obj\Debug\GitRoar.dll
+c:\users\chubas\documents\visual studio 2010\Projects\GitRoar\GitRoar\obj\Debug\GitRoar.pdb
+c:\users\chubas\documents\visual studio 2010\Projects\GitRoar\GitRoar\obj\Debug\XapCacheFile.xml

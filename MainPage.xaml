@@ -1,0 +1,51 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="GitRoar.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    mc:Ignorable="d" d:DesignWidth="480" d:DesignHeight="768" 
+    d:DataContext="{d:DesignData SampleData/MainViewModelSampleData.xaml}"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <!--Data context is set to sample data above and LayoutRoot contains the root grid where all other page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="1" Margin="79,41,63,17" d:LayoutOverrides="Width">
+            <TextBlock x:Name="ApplicationTitle" Text="Git Roar" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock x:Name="PageTitle" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}" FontSize="{StaticResource PhoneFontSizeLarge}" Text="Hello"/>
+            <TextBlock TextWrapping="Wrap" Text="github.com/" HorizontalAlignment="Center" Width="233" Height="29" Margin="0,60,0,0" TextAlignment="Center"/>
+            <TextBox TextWrapping="Wrap" Text="username" HorizontalAlignment="Center" Width="269" Height="77" TextAlignment="Center" TextChanged="usernameTextbox_TextChanged" Name="usernameTextbox" />
+            <TextBlock TextWrapping="Wrap" Text="/" HorizontalAlignment="Center" Width="17" Height="29" TextAlignment="Center"/>
+            <TextBox TextWrapping="Wrap" Text="repository" HorizontalAlignment="Center" Width="269" Height="77" TextAlignment="Center" Name="repositoryTextbox" TextChanged="repositoryTextbox_TextChanged" />
+            <Button Content="Track repo" Margin="0,60,0,0" Name="trackRepoButton" />
+            <Button Content="See tracked repos" Name="seeTrackedReposButton" />
+        </StackPanel>
+
+        <!--ContentPanel contains ListBox and ListBox ItemTemplate. Place additional content here-->
+    </Grid>
+ 
+    <!--Sample code showing usage of ApplicationBar-->
+    <!--<phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button1.png" Text="Button 1"/>
+            <shell:ApplicationBarIconButton IconUri="/Images/appbar_button2.png" Text="Button 2"/>
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="MenuItem 1"/>
+                <shell:ApplicationBarMenuItem Text="MenuItem 2"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>-->
+
+</phone:PhoneApplicationPage>
